@@ -1,5 +1,7 @@
 import Header from './Header'
 import './App.css';
+import Nav from './Nav'
+import Results from './Results'
 
 function App() {
   return (
@@ -7,8 +9,10 @@ function App() {
       
 
       <Header/>
-      {/* navigation   */}
-      {/* Results  */}
+      <Nav/>
+
+      <Results/>
+  
     </div>
   );
 }
